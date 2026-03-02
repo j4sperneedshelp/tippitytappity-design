@@ -20,4 +20,7 @@ classDiagram
         + add_badge(title: string)
         + get_badges() vector~string~
   }
+  class word_bank{
+        + get_word(type: int) string
+  }
 ```
